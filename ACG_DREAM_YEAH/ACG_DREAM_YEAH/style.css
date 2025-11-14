@@ -1,0 +1,155 @@
+*{
+    padding:0;
+  margin:0;
+}
+body{
+    background-color:#EAC100 ;
+}
+header{
+    background-color:#FFBB77;
+height:80px ;
+width:100%;
+position:fixed }
+h1{
+    color: greenyellow;
+    position:absolute;
+    left: 120px;
+    top:0;
+    line-height: 80px;
+    background-image:url(image/Logo2.svg);
+    background-size:cover;
+    background-position:center ;
+    width: 350px;
+    text-indent:-9999px ;
+}
+
+header ul{
+position: absolute;
+right: 5vw;
+top:0;
+line-height: 80px;
+}
+
+header li{
+display: inline;  
+margin-right: 4vw;  
+}
+header a{
+color:none;
+text-decoration:none ;
+}
+
+header a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+.news{
+ background-color: aqua;
+ color: red;
+ height: 95vh;
+ background-image: url(image/pngtree.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.news h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.news p{
+    color:darkmagenta;
+    font-size: 20px;
+    margin:15px 0 ;
+}
+
+.news a{
+    color: hotpink;
+    text-decoration: none;
+    border:1px solid cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.slogan{
+background-color:floralwhite;   
+color:blue;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 20px;
+line-height: 1.8em;
+}
+
+footer{
+    background-color:floralwhite;   
+    color:blue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+}
+
+.shop{
+display: flex;
+}
+
+.shop img{
+  width: 50%;  
+}
+
+.info{
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    justify-content:center ;
+}
+
+.info h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: darkorchid;
+}
+
+.info p{
+ text-align: center;
+ align-items: 20em;
+}
+
+.product{
+ display: flex;
+ justify-content: space-between;
+ background-color: oldlace;
+ align-items: center;
+ padding: 100px 180px 80px;
+}
+
+.product div{
+width:300px ;
+text-align: center;
+}
+
+.product img{
+width:100%;
+border-radius:10px ;
+}
+
+.product h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.product p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
